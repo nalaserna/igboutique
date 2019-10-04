@@ -1,0 +1,34 @@
+Probabilidad 1
+
+Cuantitativo 
+*Representa cantidad, se puede calcular/contar
+	Discreto
+		Se puede contar entero (1,2,3)
+		Ej Edad
+	Continuo
+		Se puede contar entre dos valores 
+		(1.1, 1.2)
+		Ej Salario
+
+Cualitativo
+*Representa una cualidad, no merece la pena contar/calcular, sacar promedio
+	Ejemplo: País, Cédula, género
+
+4 Niveles de medición
+	Nominal
+		Los datos se pueden clasificar como
+		color camiseta, # de la camiseta 		futbol, marcas de carros, Ciudad
+		*Medición Cualitativa
+	Ordinal
+		Datos que se ordenan
+		Relevante la posición que tenga en 			esa serie de datos
+		Ej Estrato
+	Intervalo
+		Hay diferencia significativa entre 		los valores
+		*Cuantitativa
+		Siempre es la misma diferencia entre 			un valor y otro
+		El cero no es significativo
+	Razón
+		*Cuantitativa
+		El cero es significativo
+		Ej número de pacientes atendidos (0),			número de ventas realizadas (0)
