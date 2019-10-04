@@ -1,0 +1,89 @@
+@media screen and ( max-width: 991px ) {
+.header-cart {
+	right: 0;
+}
+.main-menu nav > ul > li {
+	margin-left: 0;
+	margin-right: 0;
+}
+.mega-menu > .sub-menu > li {
+	margin-left: 0;
+	margin-right: 2%;
+}
+.mean-container .mean-nav ul li a.mean-expand {
+	left: 0 !important;
+	right: auto !important;
+}
+.main-menu nav > ul > li > a {
+	padding-left: 25px;
+	padding-right: 0;
+}
+.moon-menu .search-cart {
+	left: 15px;
+	right: auto;
+}
+.row.moon-position-relative {
+	margin-left: 0;
+	margin-right: 0;
+}
+.moon-menu .pull-left {
+	width: 100%;
+}
+.moon-menu .moon-position-none {
+	padding: 0;
+}
+.logo a {
+	padding-right: 15px;
+}
+.header-search-box {
+	padding: 0;
+}
+.logo a {
+	padding-right: 0;
+}
+.row.moon-position-relative {
+	margin-left: -15px;
+	margin-right: -15px;
+}
+.moon-menu .search-cart {
+	top: -96px;
+}
+}
+
+@media screen and ( max-width: 767px ) {
+.row.moon-position-relative {
+	width: auto;
+	position: relative;
+	left: 0;
+}
+.moon-menu .search-cart {
+	top: 0;
+	position: absolute;
+	left: 15px;
+}
+.moon-menu .search-cart {
+	margin-left: 35px;
+	margin-right: 35px;
+}
+.moon-menu .header-search-menu {
+  position: absolute;
+  right: -5px;
+  top: -78px;
+}
+.moon-menu .header-cart {
+	right: -45px;
+	top: -68px;
+}
+.stick .moon-menu .search-cart {
+	top: 0;
+}
+.moon-menu .header-search-menu {
+	top: -69px;
+}
+}
+
+@media screen and ( max-width: 479px ) {
+.logo, .search-cart {
+	width: auto;
+}
+}

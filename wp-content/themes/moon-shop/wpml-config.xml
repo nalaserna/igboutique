@@ -1,0 +1,8 @@
+<wpml-config>
+    <custom-types>
+        <custom-type translate="1">logos</custom-type>        
+    </custom-types>    
+    <taxonomies>
+        <taxonomy translate="1">logos-category</taxonomy>
+    </taxonomies> 
+</wpml-config>
