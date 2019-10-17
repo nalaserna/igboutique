@@ -574,7 +574,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 /* Header Logo */
 .logo a {
     display: block;
-    float: left;
+    float: center;
 }
 /* Main Menu */
 .main-menu ul {
