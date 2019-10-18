@@ -21,7 +21,7 @@ get_header( 'shop' ); ?>
 <div class="woocommerce-wrapper pages">
     <div class="container">
         <div class="row">
-            <div class="col-sm-12">
+            <div class="col-sm-10">
                 <div class="sin-blog-post">
                     <div class="blog-details">
 						<?php
