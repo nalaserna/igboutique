@@ -1,6 +1,30 @@
 Changelog
 =========
 
+
+#### 4.7 - Nov 7, 2019
+
+**Improvements**
+
+- Add role=alert to form notices.
+- Add setting to pre-check sign-up checkbox for Gravity Forms integrations.
+- Add new position for WooCommerce integration: directly after the billing_email field.
+- Fix PHP notices for submitting a form and saving a form as an administrator.
+- Add link to [Koko Analytics plugin](https://wordpress.org/plugins/koko-analytics/).
+
+
+#### 4.6.2 - Oct 24, 2019
+
+**Fixes**
+
+- Address fields in forms would always be required (even if really optional).
+
+**Improvements**
+
+- Add proper SVG admin menu icon.
+- Minor overall performance and memory usage improvements.
+
+
 #### 4.6.1 - Oct 7, 2019
 
 **Fixes**
