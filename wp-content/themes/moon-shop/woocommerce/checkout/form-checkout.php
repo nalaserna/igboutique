@@ -80,7 +80,7 @@ global $woocommerce;
             <div class="col-md-6 col-xs-12">
                 <div class="order-details">
                     <div class="cart-page-title">
-                        <h3 id="order_review_heading"><?php _e( 'Your order' , 'moon-shop' ); ?></h3>
+                        <h3 id="order_review_heading"><?php _e( 'Resumen de compra' , 'moon-shop' ); ?></h3>
                     </div>
                     <?php do_action( 'woocommerce_checkout_before_order_review' ); ?>
                     <div id="order_review" class="woocommerce-checkout-review-order">

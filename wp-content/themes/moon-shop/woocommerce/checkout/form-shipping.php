@@ -73,7 +73,7 @@ defined( 'ABSPATH' ) || exit;
 
             <?php if ( ! WC()->cart->needs_shipping() || wc_ship_to_billing_address_only() ) : ?>
 
-                <h3><?php _e( 'Additional Information' , 'moon-shop' ); ?></h3>
+                <h3><?php _e( 'Datos adicionales' , 'moon-shop' ); ?></h3>
 
             <?php endif; ?>
 

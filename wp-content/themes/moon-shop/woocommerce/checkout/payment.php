@@ -24,7 +24,7 @@ if ( ! is_ajax() ) {
 
 <div id="payment" class="woocommerce-checkout-payment payment-methods fix">
     <div class="cart-page-title payment-title">
-        <h3><?php esc_html_e( 'Payment Method' , 'moon-shop' ); ?></h3>
+        <h3><?php esc_html_e( 'Método de pago' , 'moon-shop' ); ?></h3>
     </div>
     <?php if ( WC()->cart->needs_payment() ) : ?>
         <ul class="wc_payment_methods payment_methods methods">
