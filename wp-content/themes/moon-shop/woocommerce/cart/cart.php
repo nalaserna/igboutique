@@ -36,20 +36,20 @@ $moon_shop_cross = isset($moon_shop_optionsValue['moon-shop-cart-cross-cell']) ?
                 <a class="<?php echo ( is_cart() || is_checkout() ) ? 'active' : ''; ?>"
                    href="<?php echo esc_url( $woocommerce->cart->get_cart_url() ); ?>">
                     <span class="number"><?php _e( '1' , 'moon-shop' ); ?></span>
-                    <p><?php _e( 'Shopping Cart' , 'moon-shop' ); ?></p>
+                    <p><?php _e( 'Carrito de compras' , 'moon-shop' ); ?></p>
                 </a>
             </li>
             <li>
                 <a class="<?php echo ( is_checkout() ) ? 'active' : ''; ?>"
                    href="<?php echo esc_url( $woocommerce->cart->get_checkout_url() ); ?>">
                     <span class="number"><?php _e( '2' , 'moon-shop' ); ?></span>
-                    <p><?php _e( 'Check Out' , 'moon-shop' ); ?></p>
+                    <p><?php _e( 'Finalizar compra' , 'moon-shop' ); ?></p>
                 </a>
             </li>
             <li>
                 <a class="<?php echo ( is_wc_endpoint_url( 'order-received' ) ) ? 'active' : ''; ?>" href="#order-complete">
                     <span class="number"><?php _e( '3' , 'moon-shop' ); ?></span>
-                    <p><?php _e( 'Order Complete' , 'moon-shop' ); ?></p>
+                    <p><?php _e( 'Orden completa' , 'moon-shop' ); ?></p>
                 </a>
             </li>
         </ul>
@@ -69,8 +69,8 @@ $moon_shop_cross = isset($moon_shop_optionsValue['moon-shop-cart-cross-cell']) ?
                     <tr>
                         <th class="product-thumbnail">&nbsp;</th>
                         <th class="product-name"><?php _e( 'items' , 'moon-shop' ); ?></th>
-                        <th class="product-price"><?php _e( 'Price' , 'moon-shop' ); ?></th>
-                        <th class="product-quantity"><?php _e( 'Quantity' , 'moon-shop' ); ?></th>
+                        <th class="product-price"><?php _e( 'Precio' , 'moon-shop' ); ?></th>
+                        <th class="product-quantity"><?php _e( 'Cantidad' , 'moon-shop' ); ?></th>
                         <th class="product-subtotal"><?php _e( 'Total' , 'moon-shop' ); ?></th>
                         <th class="product-remove">&nbsp;</th>
                     </tr>
@@ -179,7 +179,7 @@ $moon_shop_cross = isset($moon_shop_optionsValue['moon-shop-cart-cross-cell']) ?
 
                 <tr>
                     <td colspan="6" class="actions">
-                        <input type="submit" class="button update-btn" name="update_cart" value="<?php esc_attr_e( 'Update Cart' , 'moon-shop' ); ?>"/>
+                        <input type="submit" class="button update-btn" name="update_cart" value="<?php esc_attr_e( 'Actualizar carrito' , 'moon-shop' ); ?>"/>
                         <?php do_action( 'woocommerce_cart_actions' ); ?>
 
                         <?php wp_nonce_field( 'woocommerce-cart', 'woocommerce-cart-nonce' ); ?>
@@ -201,11 +201,11 @@ $moon_shop_cross = isset($moon_shop_optionsValue['moon-shop-cart-cross-cell']) ?
                             <div class="coupon coupon-discount">
                                 <h3 class="title" for="coupon_code"><?php _e( 'Descuento' , 'moon-shop' ); ?></h3>
                                 <div class="coupon-wrapper">
-                                    <p><?php _e( 'Enter your coupon code if you have one' , 'moon-shop' ); ?></p>
+                                    <p><?php _e( 'Ingresa tu cupón de descuento si tienes uno' , 'moon-shop' ); ?></p>
                                     <div class="input-box">
-                                        <input type="text" name="coupon_code" class="input-text" id="coupon_code" value="" placeholder="<?php esc_attr_e( 'Enter your code here!' , 'moon-shop' ); ?>"/>
+                                        <input type="text" name="coupon_code" class="input-text" id="coupon_code" value="" placeholder="<?php esc_attr_e( '¡Ingresa tu cupón aquí!' , 'moon-shop' ); ?>"/>
                                     </div>
-                                    <input type="submit" class="button" name="apply_coupon" value="<?php esc_attr_e( 'Apply Coupon' , 'moon-shop' ); ?>"/>
+                                    <input type="submit" class="button" name="apply_coupon" value="<?php esc_attr_e( 'Aplicar descuento' , 'moon-shop' ); ?>"/>
                                     <?php do_action( 'woocommerce_cart_coupon' ); ?>
                                 </div>
                             </div>

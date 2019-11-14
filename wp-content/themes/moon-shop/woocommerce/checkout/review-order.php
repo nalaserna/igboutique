@@ -104,7 +104,7 @@ if( !defined( 'ABSPATH' ) ) {
     <?php do_action( 'woocommerce_review_order_before_order_total' ); ?>
 
     <tr class="order-total">
-        <th class="grand-total-title text-left"><?php _e( 'Grand Total' , 'moon-shop' ); ?></th>
+        <th class="grand-total-title text-left"><?php _e( 'Total' , 'moon-shop' ); ?></th>
         <td class="grand-total text-right"><?php wc_cart_totals_order_total_html(); ?></td>
     </tr>
 
