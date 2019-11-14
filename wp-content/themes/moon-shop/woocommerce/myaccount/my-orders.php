@@ -15,11 +15,11 @@ if( !defined( 'ABSPATH' ) ) {
 
 $my_orders_columns = apply_filters( 'woocommerce_my_account_my_orders_columns' , array(
 
-    'order-number' => __( 'Order' , 'moon-shop' ) ,
+    'order-number' => __( 'Orden' , 'moon-shop' ) ,
 
-    'order-date' => __( 'Date' , 'moon-shop' ) ,
+    'order-date' => __( 'Fecha' , 'moon-shop' ) ,
 
-    'order-status' => __( 'Status' , 'moon-shop' ) ,
+    'order-status' => __( 'Estado' , 'moon-shop' ) ,
 
     'order-total' => __( 'Total' , 'moon-shop' ) ,
 

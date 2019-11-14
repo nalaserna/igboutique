@@ -22,7 +22,7 @@ if( !defined( 'ABSPATH' ) ) {
 <table class="shop_table woocommerce-checkout-review-order-table order-pro-table table">
     <thead>
     <tr>
-        <th class="product-name product text-left"><?php _e( 'Product' , 'moon-shop' ); ?></th>
+        <th class="product-name product text-left"><?php _e( 'Producto' , 'moon-shop' ); ?></th>
         <th class="product-total total text-right"><?php _e( 'Total' , 'moon-shop' ); ?></th>
     </tr>
     </thead>

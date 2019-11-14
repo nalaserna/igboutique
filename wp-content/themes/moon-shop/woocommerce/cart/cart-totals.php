@@ -25,7 +25,7 @@ if( !defined( 'ABSPATH' ) ) {
 
     <?php do_action( 'woocommerce_before_cart_totals' ); ?>
 
-    <h3 class="title"><?php _e( 'Payment Details' , 'moon-shop' ); ?></h3>
+    <h3 class="title"><?php _e( 'Detalles del pago' , 'moon-shop' ); ?></h3>
 
     <table cellspacing="0" class="shop_table shop_table_responsive">
 
@@ -55,7 +55,7 @@ if( !defined( 'ABSPATH' ) ) {
             <?php do_action( 'woocommerce_cart_totals_after_shipping' ); ?>
         <?php elseif( WC()->cart->needs_shipping() && 'yes' === get_option( 'woocommerce_enable_shipping_calc' ) ) : ?>
             <tr class="shipping">
-                <th><?php _e( 'Shipping' , 'moon-shop' ); ?></th>
+                <th><?php _e( 'Envío', 'moon-shop' ); ?></th>
                 <td data-title="<?php esc_attr_e( 'Shipping' , 'moon-shop' ); ?>"><?php woocommerce_shipping_calculator(); ?></td>
             </tr>
         <?php endif; ?>
@@ -80,7 +80,7 @@ if( !defined( 'ABSPATH' ) ) {
 
             $estimated_text = WC()->customer->is_customer_outside_base() && !WC()->customer->has_calculated_shipping()
 
-                ? sprintf( ' <small>(' . __( 'estimated for %s' , 'moon-shop' ) . ')</small>' , WC()->countries->estimated_for_prefix( $taxable_address[ 0 ] ) . WC()->countries->countries[ $taxable_address[ 0 ] ] )
+                ? sprintf( ' <small>(' . __( 'estimado para %s' , 'moon-shop' ) . ')</small>' , WC()->countries->estimated_for_prefix( $taxable_address[ 0 ] ) . WC()->countries->countries[ $taxable_address[ 0 ] ] )
 
                 : '';
 
@@ -116,7 +116,7 @@ if( !defined( 'ABSPATH' ) ) {
 
         <tr class="order-total cart-total">
 
-            <th><?php _e( 'Grand total' , 'moon-shop' ); ?></th>
+            <th><?php _e( 'Total' , 'moon-shop' ); ?></th>
 
             <td data-title="<?php esc_attr_e( 'Total' , 'moon-shop' ); ?>"><?php wc_cart_totals_order_total_html(); ?></td>
 

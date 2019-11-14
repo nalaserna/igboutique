@@ -23,7 +23,7 @@ if ( ! wc_coupons_enabled() ) { // @codingStandardsIgnoreLine.
 
 ?>
 <div class="woocommerce-form-coupon-toggle">
-    <?php wc_print_notice( apply_filters( 'woocommerce_checkout_coupon_message', __( 'Have a coupon?', 'moon-shop' ) . ' <a href="#" class="showcoupon">' . __( 'Click here to enter your code', 'moon-shop' ) . '</a>' ), 'notice' ); ?>
+    <?php wc_print_notice( apply_filters( 'woocommerce_checkout_coupon_message', __( 'Tienes un cupón?', 'moon-shop' ) . ' <a href="#" class="showcoupon">' . __( 'Haz click aquí para ingresar tu cupón.', 'moon-shop' ) . '</a>' ), 'notice' ); ?>
 </div>
 
 <div class="row">
@@ -31,13 +31,13 @@ if ( ! wc_coupons_enabled() ) { // @codingStandardsIgnoreLine.
         <form class="checkout_coupon woocommerce-form-coupon text-center moon-form" method="post" style="display:none">
             <div class="input-box">
                 <p class="form-row">
-                    <input type="text" name="coupon_code" class="input-text" placeholder="<?php esc_attr_e( 'Coupon code' , 'moon-shop' ); ?>" id="coupon_code" value=""/>
+                    <input type="text" name="coupon_code" class="input-text" placeholder="<?php esc_attr_e( 'Ingresa tu código de cupón' , 'moon-shop' ); ?>" id="coupon_code" value=""/>
                 </p>
             </div>
 
             <div class="input-box">
                 <p class="form-row">
-                    <input type="submit" class="button" name="apply_coupon" value="<?php esc_attr_e( 'Apply Coupon' , 'moon-shop' ); ?>"/>
+                    <input type="submit" class="button" name="apply_coupon" value="<?php esc_attr_e( 'Aplicar descuento' , 'moon-shop' ); ?>"/>
                 </p>
             </div>
 

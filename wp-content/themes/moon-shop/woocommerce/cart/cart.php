@@ -56,7 +56,7 @@ $moon_shop_cross = isset($moon_shop_optionsValue['moon-shop-cart-cross-cell']) ?
     </div>
 
     <div class="cart-page-title text-center">
-        <h2><?php esc_html_e('Your Shopping Cart', 'moon-shop'); ?></h2>
+        <h2><?php esc_html_e('Tu carrito de compras', 'moon-shop'); ?></h2>
     </div>
 
     <form class="woocommerce-cart-form" action="<?php echo esc_url( wc_get_cart_url() ); ?>" method="post">
@@ -127,7 +127,7 @@ $moon_shop_cross = isset($moon_shop_optionsValue['moon-shop-cart-cross-cell']) ?
                                 ?>
                             </td>
 
-                            <td class="product-quantity" data-title="<?php _e( 'Quantity' , 'moon-shop' ); ?>">
+                            <td class="product-quantity" data-title="<?php _e( 'Cantidad', 'moon-shop' ); ?>">
                                 <?php
                                 if( $_product->is_sold_individually() ) {
                                     $product_quantity = sprintf( '1 <input type="hidden" name="cart[%s][qty]" value="1" />' , $cart_item_key );
@@ -161,7 +161,7 @@ $moon_shop_cross = isset($moon_shop_optionsValue['moon-shop-cart-cross-cell']) ?
                                     sprintf(
                                         '<a href="%s" class="cart-remove" title="%s" data-product_id="%s" data-product_sku="%s"><i class="fa fa-times-circle-o"></i></a>' ,
                                         esc_url( wc_get_cart_remove_url( $cart_item_key ) ) ,
-                                        __( 'Remove this item' , 'moon-shop' ) ,
+                                        __( 'Eliminar producto' , 'moon-shop' ) ,
                                         esc_attr( $product_id ) ,
                                         esc_attr( $_product->get_sku() )
                                     ) , 
@@ -199,7 +199,7 @@ $moon_shop_cross = isset($moon_shop_optionsValue['moon-shop-cart-cross-cell']) ?
                     <?php if( wc_coupons_enabled() ) { ?>
                         <div class="col-sm-6 col-xs-12">
                             <div class="coupon coupon-discount">
-                                <h3 class="title" for="coupon_code"><?php _e( 'Coupon Discount' , 'moon-shop' ); ?></h3>
+                                <h3 class="title" for="coupon_code"><?php _e( 'Descuento' , 'moon-shop' ); ?></h3>
                                 <div class="coupon-wrapper">
                                     <p><?php _e( 'Enter your coupon code if you have one' , 'moon-shop' ); ?></p>
                                     <div class="input-box">

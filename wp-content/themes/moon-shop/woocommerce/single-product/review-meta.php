@@ -24,7 +24,7 @@ if ( '0' === $comment->comment_approved ) { ?>
 
 	<p class="meta">
 		<em class="woocommerce-review__awaiting-approval">
-			<?php esc_html_e( 'Your review is awaiting approval', 'moon-shop' ); ?>
+			<?php esc_html_e( 'Tu comentario está pendiente de aprobación.', 'moon-shop' ); ?>
 		</em>
 	</p>
 

@@ -28,29 +28,29 @@ global $woocommerce;
                 <a class="<?php echo ( is_cart() || is_checkout() ) ? 'active' : ''; ?>"
                    href="<?php echo esc_url( $woocommerce->cart->get_cart_url() ); ?>">
                     <span class="number"><?php _e( '1' , 'moon-shop' ); ?></span>
-                    <p><?php _e( 'Shopping Cart' , 'moon-shop' ); ?></p>
+                    <p><?php _e( 'Carrito de compras' , 'moon-shop' ); ?></p>
                 </a>
             </li>
             <li>
                 <a class="<?php echo ( is_checkout() ) ? 'active' : ''; ?>"
                    href="<?php echo esc_url( $woocommerce->cart->get_checkout_url() ); ?>">
                     <span class="number"><?php _e( '2' , 'moon-shop' ); ?></span>
-                    <p><?php _e( 'Check Out' , 'moon-shop' ); ?></p>
+                    <p><?php _e( 'Finalizar compra' , 'moon-shop' ); ?></p>
                 </a>
             </li>
             <li>
                 <a class="<?php echo ( is_wc_endpoint_url( 'order-received' ) ) ? 'active' : ''; ?>"
                    href="#order-complete">
                     <span class="number"><?php _e( '3' , 'moon-shop' ); ?></span>
-                    <p><?php _e( 'Order Complete' , 'moon-shop' ); ?></p>
+                    <p><?php _e( 'Orden completa' , 'moon-shop' ); ?></p>
                 </a>
             </li>
         </ul>
     </div>
 
     <div class="cart-page-title cart-page-title-2 text-center">
-        <h1><?php _e( 'Checkout' , 'moon-shop' ); ?></h1>
-        <p><?php _e( 'Personal Information and Payment' , 'moon-shop' ); ?></p>
+        <h1><?php _e( 'Finalizar compra' , 'moon-shop' ); ?></h1>
+        <p><?php _e( 'Información personal y de pago' , 'moon-shop' ); ?></p>
     </div>
     <?php
 

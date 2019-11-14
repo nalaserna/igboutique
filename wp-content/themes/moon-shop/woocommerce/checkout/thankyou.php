@@ -29,21 +29,21 @@ if( $order ) : ?>
                 <a class="<?php echo ( is_cart() || is_checkout() ) ? 'active' : ''; ?>"
                    href="<?php echo esc_url( $woocommerce->cart->get_cart_url() ); ?>">
                     <span class="number"><?php _e( '1' , 'moon-shop' ); ?></span>
-                    <p><?php _e( 'Shopping Cart' , 'moon-shop' ); ?></p>
+                    <p><?php _e( 'Carrito de compras' , 'moon-shop' ); ?></p>
                 </a>
             </li>
             <li>
                 <a class="<?php echo ( is_checkout() ) ? 'active' : ''; ?>"
                    href="<?php echo esc_url( $woocommerce->cart->get_checkout_url() ); ?>">
                     <span class="number"><?php _e( '2' , 'moon-shop' ); ?></span>
-                    <p><?php _e( 'Check Out' , 'moon-shop' ); ?></p>
+                    <p><?php _e( 'Finalizar compra' , 'moon-shop' ); ?></p>
                 </a>
             </li>
             <li>
                 <a class="<?php echo ( is_wc_endpoint_url( 'order-received' ) ) ? 'active' : ''; ?>"
                    href="#order-complete">
                     <span class="number"><?php _e( '3' , 'moon-shop' ); ?></span>
-                    <p><?php _e( 'Order Complete' , 'moon-shop' ); ?></p>
+                    <p><?php _e( 'Orden Completa' , 'moon-shop' ); ?></p>
                 </a>
             </li>
         </ul>
@@ -51,7 +51,7 @@ if( $order ) : ?>
 
     <?php if( $order->has_status( 'failed' ) ) : ?>
         <div class="order-complete-mgs text-center">
-            <p class="woocommerce-thankyou-order-failed"><?php _e( 'Unfortunately your order cannot be processed as the originating bank/merchant has declined your transaction. Please attempt your purchase again.' , 'moon-shop' ); ?></p>
+            <p class="woocommerce-thankyou-order-failed"><?php _e( '¡Oops! Tu orden no pudo ser procesada por tu banco. Por favor contacta a tu banco y vuelve a intentar la transacción.' , 'moon-shop' ); ?></p>
 
             <p class="woocommerce-thankyou-order-failed-actions text-center place-order">
                 <a href="<?php echo esc_url( $order->get_checkout_payment_url() ); ?>"
@@ -65,16 +65,16 @@ if( $order ) : ?>
 
     <?php else : ?>
         <div class="order-complete-mgs text-center">
-            <p class="woocommerce-thankyou-order-received"><?php echo apply_filters( 'woocommerce_thankyou_order_received_text' , __( 'Thank you. Your order has been received.' , 'moon-shop' ) , $order ); ?></p>
+            <p class="woocommerce-thankyou-order-received"><?php echo apply_filters( 'woocommerce_thankyou_order_received_text' , __( '¡Gracias por tu compra, wapa! Nos podremos en contacto para realizar el envío.' , 'moon-shop' ) , $order ); ?></p>
         </div>
 
         <ul class="woocommerce-thankyou-order-details order_details order-information text-center fix">
             <li class="order single">
-                <span><?php _e( 'Order Number:' , 'moon-shop' ); ?></span>
+                <span><?php _e( 'Numero de orden:' , 'moon-shop' ); ?></span>
                 <h4><?php echo esc_attr( $order->get_order_number() ); ?></h4>
             </li>
             <li class="date single">
-                <span><?php _e( 'Date:' , 'moon-shop' ); ?></span>
+                <span><?php _e( 'Fecha:' , 'moon-shop' ); ?></span>
                 <h4><?php echo wc_format_datetime( $order->get_date_created() ); ?></h4>
             </li>
             <?php if ( is_user_logged_in() && $order->get_user_id() === get_current_user_id() && $order->get_billing_email() ) : ?>
@@ -89,7 +89,7 @@ if( $order ) : ?>
             </li>
             <?php if( $order->get_payment_method_title() ) : ?>
                 <li class="method single">
-                    <span><?php _e( 'Payment Method:' , 'moon-shop' ); ?></span>
+                    <span><?php _e( 'Metodo de pago:' , 'moon-shop' ); ?></span>
                     <h4><?php echo wp_kses_post( $order->get_payment_method_title() ); ?></h4>
                 </li>
             <?php endif; ?>
@@ -104,7 +104,7 @@ if( $order ) : ?>
 
 <?php else : ?>
     <div class="order-complete-mgs text-center">
-        <p class="woocommerce-thankyou-order-received"><?php echo apply_filters( 'woocommerce_thankyou_order_received_text' , __( 'Thank you. Your order has been received.' , 'moon-shop' ) , null ); ?></p>
+        <p class="woocommerce-thankyou-order-received"><?php echo apply_filters( 'woocommerce_thankyou_order_received_text' , __( '¡Gracias por tu compra, Wapa!' , 'moon-shop' ) , null ); ?></p>
     </div>
 
 <?php endif; ?>

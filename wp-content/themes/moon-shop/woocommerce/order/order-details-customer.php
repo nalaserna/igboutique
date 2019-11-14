@@ -24,14 +24,14 @@ $show_shipping = ! wc_ship_to_billing_address_only() && $order->needs_shipping_a
 <div class="coustomer-details">
 
     <div class="order-com-title">
-        <h2><?php _e( 'Customer Details' , 'moon-shop' ); ?></h2>
+        <h2><?php _e( 'Detalles del cliente' , 'moon-shop' ); ?></h2>
     </div>
 
     <div class="content">
         <ul class="shop_table customer_details">
             <?php if( $order->get_customer_note() ) : ?>
                 <li>
-                    <span><?php _e( 'Note:' , 'moon-shop' ); ?></span>
+                    <span><?php _e( 'Notas:' , 'moon-shop' ); ?></span>
                     <?php echo wptexturize( $order->get_customer_note() ); ?>
                 </li>
             <?php endif; ?>
@@ -45,7 +45,7 @@ $show_shipping = ! wc_ship_to_billing_address_only() && $order->needs_shipping_a
 
             <?php if( $order->get_billing_phone() ) : ?>
                 <li>
-                    <span><?php _e( 'Telephone:' , 'moon-shop' ); ?></span>
+                    <span><?php _e( 'Teléfono:' , 'moon-shop' ); ?></span>
                     <?php echo esc_html( $order->get_billing_phone() ); ?>
                 </li>
             <?php endif; ?>
@@ -62,7 +62,7 @@ $show_shipping = ! wc_ship_to_billing_address_only() && $order->needs_shipping_a
     <?php endif; ?>
     <div class="billing-address">
         <div class="order-com-title">
-            <h2><?php _e( 'Billing Address' , 'moon-shop' ); ?></h2>
+            <h2><?php _e( 'Dirección' , 'moon-shop' ); ?></h2>
         </div>
 
         <div class="content">
@@ -104,14 +104,14 @@ $show_shipping = ! wc_ship_to_billing_address_only() && $order->needs_shipping_a
 
                 <?php
                 if( $company != '' ) {
-                    echo '<p>'.__('Company Name', 'moon-shop').': ' . esc_attr( $company ) . '</p>';
+                    echo '<p>'.__('Nombre de la empresa', 'moon-shop').': ' . esc_attr( $company ) . '</p>';
                 } ?>
 
-                <p><?php echo __('Address', 'moon-shop').': ' . esc_attr( $address_1 ); ?></p>
+                <p><?php echo __('Dirección', 'moon-shop').': ' . esc_attr( $address_1 ); ?></p>
 
                 <?php
                 if( $address_2 != '' ) {
-                    echo '<p>'.__('Address', 'moon-shop').': ' . esc_attr( $address_2 ) . '</p>';
+                    echo '<p>'.__('Dirección', 'moon-shop').': ' . esc_attr( $address_2 ) . '</p>';
                 } ?>
 
                 <p><?php echo esc_attr( $city ) . ', ' . esc_attr( $full_state ); ?></p>
@@ -131,7 +131,7 @@ $show_shipping = ! wc_ship_to_billing_address_only() && $order->needs_shipping_a
 
     <div class="order-com-title">
 
-        <h2><?php _e( 'Shipping Address' , 'moon-shop' ); ?></h2>
+        <h2><?php _e( 'Dirección de envío' , 'moon-shop' ); ?></h2>
 
     </div>
 

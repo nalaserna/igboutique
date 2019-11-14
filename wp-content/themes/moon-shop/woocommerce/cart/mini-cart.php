@@ -43,7 +43,7 @@ do_action( 'woocommerce_before_mini_cart' ); ?>
 
     <div class="headercart-wrapper dropdown-menu" role="menu" aria-labelledby="menu1">
 
-        <h2><?php esc_html_e( 'Shopping Cart' , 'moon-shop' ); ?></h2>
+        <h2><?php esc_html_e( 'Carrito de compras' , 'moon-shop' ); ?></h2>
 
 		<ul class="woocommerce-mini-cart products cart_list product_list_widget">
 			<?php if ( ! WC()->cart->is_empty() ) : ?>
@@ -75,7 +75,7 @@ do_action( 'woocommerce_before_mini_cart' ); ?>
 							echo apply_filters( 'woocommerce_cart_item_remove_link', sprintf(
 								'<a href="%s" class="remove" aria-label="%s" data-product_id="%s" data-product_sku="%s"><i class="fa fa-times-circle-o"></i></a>',
 								esc_url( wc_get_cart_remove_url( $cart_item_key ) ),
-								__( 'Remove this item', 'moon-shop' ),
+								__( 'Eliminar del carrito', 'moon-shop' ),
 								esc_attr( $product_id ),
 								esc_attr( $_product->get_sku() )
 							), $cart_item_key );
@@ -90,7 +90,7 @@ do_action( 'woocommerce_before_mini_cart' ); ?>
 			<?php else : ?>
 
 				<div class="order-complete-mgs text-center">
-		            <p class="text-center"><?php echo esc_html__( 'Your cart is currently empty. ' , 'moon-shop' ) ?></p>
+		            <p class="text-center"><?php echo esc_html__( 'Tu carrito de compras se encuentra vacío. ' , 'moon-shop' ) ?></p>
 		        </div>
 
 			<?php endif; ?>

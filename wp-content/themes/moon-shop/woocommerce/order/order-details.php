@@ -42,14 +42,14 @@ if ( $show_downloads ) {
 
 <div class="col-md-6 col-xs-12">
     <div class="cart-page-title">
-        <h2><?php esc_html_e( 'Order Details' , 'moon-shop' ); ?></h2>
+        <h2><?php esc_html_e( 'Detalles de la compra' , 'moon-shop' ); ?></h2>
     </div>
     <div class="table-responsive">
         <fieldset>
             <table class="shop_table order_details order-pro-table table">
                 <thead>
                 <tr>
-                    <th class="product-name product text-left"><?php esc_html_e( 'Product' , 'moon-shop' ); ?></th>
+                    <th class="product-name product text-left"><?php esc_html_e( 'Producto' , 'moon-shop' ); ?></th>
                     <th class="product-total total text-right"><?php esc_html_e( 'Total' , 'moon-shop' ); ?></th>
                 </tr>
                 </thead>

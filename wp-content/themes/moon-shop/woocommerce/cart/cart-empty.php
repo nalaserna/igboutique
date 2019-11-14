@@ -28,21 +28,21 @@ global $woocommerce;
                 <a class="<?php echo ( is_cart() || is_checkout() ) ? 'active' : ''; ?>"
                    href="<?php echo esc_url( $woocommerce->cart->get_cart_url() ); ?>">
                     <span class="number"><?php _e( '1' , 'moon-shop' ); ?></span>
-                    <p><?php _e( 'Shopping Cart' , 'moon-shop' ); ?></p>
+                    <p><?php _e( 'Carrito de compras' , 'moon-shop' ); ?></p>
                 </a>
             </li>
             <li>
                 <a class="<?php echo ( is_checkout() ) ? 'active' : ''; ?>"
                    href="<?php echo esc_url( $woocommerce->cart->get_checkout_url() ); ?>">
                     <span class="number"><?php _e( '2' , 'moon-shop' ); ?></span>
-                    <p><?php _e( 'Check Out' , 'moon-shop' ); ?></p>
+                    <p><?php _e( 'Finalizar compra' , 'moon-shop' ); ?></p>
                 </a>
             </li>
             <li>
                 <a class="<?php echo ( is_wc_endpoint_url( 'order-received' ) ) ? 'active' : ''; ?>"
                    href="#order-complete">
                     <span class="number"><?php _e( '3' , 'moon-shop' ); ?></span>
-                    <p><?php _e( 'Order Complete' , 'moon-shop' ); ?></p>
+                    <p><?php _e( 'Orden Completa' , 'moon-shop' ); ?></p>
                 </a>
             </li>
         </ul>
@@ -60,7 +60,7 @@ global $woocommerce;
         <p class="return-to-shop text-center place-order">
             <a class="button wc-backward place-order-btn"
                href="<?php echo esc_url( apply_filters( 'woocommerce_return_to_shop_redirect', wc_get_page_permalink( 'shop' ) ) ); ?>">
-                <?php _e( 'Return To Shop' , 'moon-shop' ) ?>
+                <?php _e( 'Regresar a la tienda' , 'moon-shop' ) ?>
             </a>
         </p>
     <?php endif; ?>
