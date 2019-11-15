@@ -1,0 +1,57 @@
+.wptwa-container .wptwa-handler,
+.wptwa-description {
+	background-color: rgba(84, 227, 127, 0.9);
+	color: rgba(0, 0, 0, 1);
+}
+.wptwa-container .wptwa-handler svg {
+	fill: rgba(0, 0, 0, 1);
+}
+.wptwa-container .wptwa-box {
+	background-color: rgba(255, 255, 255, 1);
+	color: rgba(255, 137, 64, 1);
+}
+.wptwa-container .wptwa-box:before,
+.wptwa-container .wptwa-box:after {
+	background-color: rgba(255, 255, 255, 1);
+	border-color: rgba(255, 255, 255, 1);
+}
+.wptwa-container .wptwa-close:before,
+.wptwa-container .wptwa-close:after {
+	background-color: rgba(0, 0, 0, 1);
+}
+.wptwa-container {
+	max-width: 600px;
+}
+
+.wptwa-wc-button {
+	background-color: rgba(227, 75, 186, 0.9);
+	color: rgba(255, 255, 255, 1);
+}
+.wptwa-wc-button svg {
+	fill: rgba(255, 255, 255, 1);
+}
+.wptwa-wc-button:hover {
+	background-color: rgba(247, 217, 108, 0.9);
+	color: rgba(255, 255, 255, 1);
+}
+
+@media screen and (max-width : 600px) {
+	.wptwa-container {
+		max-width: 100%;
+	}
+}
+.wptwa-container .wptwa-box {
+	width: calc(600px - 80px);
+	max-width: calc(100% - 40px);
+}
+
+.wptwa-container .wptwa-account:hover {
+	background-color: rgba(245, 245, 245, 1);
+	color: rgba(85, 85, 85, 1);
+}
+.wptwa-container .wptwa-account:not(:last-child):after {
+	background-color: ;
+}
+.wptwa-container .wptwa-account:hover:after {
+	background-color: rgba(245, 245, 245, 1);
+}

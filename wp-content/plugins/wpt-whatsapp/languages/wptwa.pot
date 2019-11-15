@@ -1,0 +1,286 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WhatsApp Chat Slide-In\n"
+"POT-Creation-Date: 2017-07-14 22:33+0700\n"
+"PO-Revision-Date: 2017-06-26 08:15+0700\n"
+"Last-Translator: \n"
+"Language-Team: Satu Dua <satuduaco@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.1\n"
+"X-Poedit-Basepath: ..\\\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en_US\n"
+"X-Poedit-KeywordsList: esc_html__;esc_html_e;esc_attr__;esc_attr_e;__;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+"X-Poedit-SearchPathExcluded-1: languages\n"
+
+#: includes/WPTWA_Activation.php:20
+msgid "Chat with us on WhatsApp"
+msgstr ""
+
+#: includes/WPTWA_Activation.php:23
+msgid "Hi there! Click one of our representatives below and we will get back to you as soon as possible."
+msgstr ""
+
+#: includes/WPTWA_Menu_Link.php:19
+msgid "WhatsApp Click"
+msgstr ""
+
+#: includes/WPTWA_Menu_Link.php:70
+msgid "Settings"
+msgstr ""
+
+#: includes/WPTWA_Utils.php:37
+msgid "Something is wrong: The view is not set yet. Please contact the developer."
+msgstr ""
+
+#: includes/WPTWA_Utils.php:40
+msgid "Something is wrong: The view not found. Please contact the developer."
+msgstr ""
+
+#: view/settings.php:62
+msgid "WhatsApp Number"
+msgstr ""
+
+#: view/settings.php:65
+#, php-format
+msgid "This field is required. Full phone number in international format. Refer to %s for a detailed explanation."
+msgstr ""
+
+#: view/settings.php:69
+msgid "Name"
+msgstr ""
+
+#: view/settings.php:72
+msgid "Name is also required. If left blank, this account will not be saved."
+msgstr ""
+
+#: view/settings.php:76
+msgid "Title"
+msgstr ""
+
+#: view/settings.php:79
+msgid "Title will be displayed above Name."
+msgstr ""
+
+#: view/settings.php:83
+msgid "Picture"
+msgstr ""
+
+#: view/settings.php:85
+msgid "Choose Picture"
+msgstr ""
+
+#: view/settings.php:89
+msgid "Auto Text"
+msgstr ""
+
+#: view/settings.php:92
+msgid "This text will pre-populate the chat textfield."
+msgstr ""
+
+#: view/settings.php:96
+msgid "Time Availability"
+msgstr ""
+
+#: view/settings.php:98
+msgid "Set the time in which the account should be displayed."
+msgstr ""
+
+#: view/settings.php:113
+#, php-format
+msgid "Note that the timezone currently in use is %s"
+msgstr ""
+
+#: view/settings.php:117
+msgid "Day Availability"
+msgstr ""
+
+#: view/settings.php:119
+msgid "Check the days in which the account should be displayed."
+msgstr ""
+
+#: view/settings.php:120
+msgid "Sunday"
+msgstr ""
+
+#: view/settings.php:121
+msgid "Monday"
+msgstr ""
+
+#: view/settings.php:122
+msgid "Tuesday"
+msgstr ""
+
+#: view/settings.php:123
+msgid "Wednesday"
+msgstr ""
+
+#: view/settings.php:124
+msgid "Thursday"
+msgstr ""
+
+#: view/settings.php:125
+msgid "Friday"
+msgstr ""
+
+#: view/settings.php:126
+msgid "Saturday"
+msgstr ""
+
+#: view/settings.php:136
+msgid "Day availability should at least have one day checked."
+msgstr ""
+
+#: view/settings.php:140
+msgid "Remove this account"
+msgstr ""
+
+#: view/settings.php:156
+msgid "WhatsApp Click to Chat Settings"
+msgstr ""
+
+#: view/settings.php:159
+msgid "Display Settings"
+msgstr ""
+
+#: view/settings.php:164
+msgid "Toggle Text"
+msgstr ""
+
+#: view/settings.php:170
+msgid "Toggle Text Color"
+msgstr ""
+
+#: view/settings.php:176
+msgid "Toggle Background Color"
+msgstr ""
+
+#: view/settings.php:182
+msgid "Description"
+msgstr ""
+
+#: view/settings.php:188
+msgid "Container Text Color"
+msgstr ""
+
+#: view/settings.php:194
+msgid "Container Background Color"
+msgstr ""
+
+#: view/settings.php:200
+msgid "Account Item Background Color on Hover"
+msgstr ""
+
+#: view/settings.php:206
+msgid "Account Item Text Color on Hover"
+msgstr ""
+
+#: view/settings.php:212
+msgid "Border Color Between Accounts"
+msgstr ""
+
+#: view/settings.php:218
+msgid "Container Maximum Width"
+msgstr ""
+
+#: view/settings.php:220
+msgid "px"
+msgstr ""
+
+#: view/settings.php:224
+msgid "Box Position"
+msgstr ""
+
+#: view/settings.php:226
+msgid "Bottom Left"
+msgstr ""
+
+#: view/settings.php:227
+msgid "Bottom Right"
+msgstr ""
+
+#: view/settings.php:233
+msgid "Load-in Settings"
+msgstr ""
+
+#: view/settings.php:235
+msgid "The fields below should have a numeric value of more than 0 for the feature to work."
+msgstr ""
+
+#: view/settings.php:240
+msgid "Delay Time"
+msgstr ""
+
+#: view/settings.php:242 view/settings.php:248
+msgid "second(s)"
+msgstr ""
+
+#: view/settings.php:246
+msgid "Inactivity Time"
+msgstr ""
+
+#: view/settings.php:252
+msgid "Scroll Length"
+msgstr ""
+
+#: view/settings.php:254
+msgid "%"
+msgstr ""
+
+#: view/settings.php:258
+msgid "Auto Display on Mobile"
+msgstr ""
+
+#: view/settings.php:260
+msgid "Turn on auto-display on mobile"
+msgstr ""
+
+#: view/settings.php:266
+msgid "Page Targeting"
+msgstr ""
+
+#: view/settings.php:271
+msgid "Archives"
+msgstr ""
+
+#: view/settings.php:273
+msgid "Show on archive pages"
+msgstr ""
+
+#: view/settings.php:277
+msgid "Pages"
+msgstr ""
+
+#: view/settings.php:279
+msgid "Show on pages"
+msgstr ""
+
+#: view/settings.php:283
+msgid "Blog Posts"
+msgstr ""
+
+#: view/settings.php:285
+msgid "Show on blog posts"
+msgstr ""
+
+#: view/settings.php:294
+#, php-format
+msgid "Show on %s"
+msgstr ""
+
+#: view/settings.php:303
+msgid "WhatsApp Accounts"
+msgstr ""
+
+#: view/settings.php:342
+msgid "Add Account"
+msgstr ""
+
+#: view/settings.php:351
+msgid "Save Changes"
+msgstr ""
